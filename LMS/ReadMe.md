@@ -7,6 +7,14 @@ Please run it by the below command:
 
 python3 LMS.py
 
+3 Quality Attributes:
+
+Integrity: There is no error that the software needs to restart
+
+Reliability: All the data is saved successfully in the json file.
+
+Flexibility: The management system have five functions to read, to add, to borrow, to return, and to delete books.
+
 The 8 CSF heuristics:
 
 Explain the benefits of using new and existing features
@@ -23,4 +31,4 @@ Provide an explicit path through the task
 
 Provide ways to try out different approaches
 
-encourage tinkerers to tinker mindfully
+Encourage tinkerers to tinker mindfully
