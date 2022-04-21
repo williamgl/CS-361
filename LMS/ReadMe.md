@@ -9,7 +9,7 @@ python3 LMS.py
 
 3 Quality Attributes:
 
-Integrity: There is no error that the software needs to restart
+Integrity: There is no error that the software needs to restart.
 
 Reliability: All the data is saved successfully in the json file.
 
