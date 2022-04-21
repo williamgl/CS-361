@@ -1,0 +1,263 @@
+{
+    "number": 43,
+    "member": {
+        "1": {
+            "name": "Java in a NutShell",
+            "location": "Gan's desk",
+            "status": "Gan's desk",
+            "category": "Computer Science"
+        },
+        "2": {
+            "name": "Python by Example",
+            "location": "Gan's desk",
+            "status": "On Shelf at Gan's desk",
+            "category": "Computer Science"
+        },
+        "3": {
+            "name": "Effective Java",
+            "location": "Gan's desk",
+            "status": "On Shelf at Gan's desk",
+            "category": "Computer Science"
+        },
+        "4": {
+            "name": "Selected Works of Mao Tse-Tung Book 1",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Religious"
+        },
+        "5": {
+            "name": "Selected Works of Mao Tse-Tung Book 2",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Religious"
+        },
+        "6": {
+            "name": "Selected Works of Mao Tse-Tung Book 3",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Religious"
+        },
+        "7": {
+            "name": "Selected Works of Mao Tse-Tung Book 4",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Religious"
+        },
+        "8": {
+            "name": "Diary of a Madman",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Fictions"
+        },
+        "9": {
+            "name": "Learning Python",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Computer Science"
+        },
+        "10": {
+            "name": "The I Cheng Workbook",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Religious"
+        },
+        "11": {
+            "name": "The Little Mermaid",
+            "location": "A2",
+            "status": "On Shelf at A2",
+            "category": "Fictions"
+        },
+        "12": {
+            "name": "Genki Japanese",
+            "location": "A3",
+            "status": "On Shelf at A3",
+            "category": "Manga"
+        },
+        "13": {
+            "name": "Economics Principles",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Economics"
+        },
+        "14": {
+            "name": "Putnam and Beyond",
+            "location": "A3",
+            "status": "On Shelf at A3",
+            "category": "Mathematics"
+        },
+        "15": {
+            "name": "50 Ideas You Really Need to Know",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Economics"
+        },
+        "16": {
+            "name": "Interaction Design",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Computer Science"
+        },
+        "17": {
+            "name": "Python in Easy Steps",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Computer Science"
+        },
+        "18": {
+            "name": "The Economics of Money, Banking, and Financial Markets",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Economics"
+        },
+        "19": {
+            "name": "Modern Principles of Economics",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Economics"
+        },
+        "20": {
+            "name": "Applied Calculus",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Mathematics"
+        },
+        "21": {
+            "name": "Elementory Differential Equations",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Mathematics"
+        },
+        "22": {
+            "name": "Level 1 CFA Original Guides",
+            "location": "A4",
+            "status": "On Shelf at A4",
+            "category": "Economics"
+        },
+        "23": {
+            "name": "The Hunger Games",
+            "location": "A5",
+            "status": "On Shelf at A5",
+            "category": "Fictions"
+        },
+        "24": {
+            "name": "Mockingjay",
+            "location": "A5",
+            "status": "On Shelf at A5",
+            "category": "Fictions"
+        },
+        "25": {
+            "name": "Catching Fire",
+            "location": "A5",
+            "status": "On Shelf at A5",
+            "category": "Fictions"
+        },
+        "26": {
+            "name": "Options, Futures, and other Dericatives",
+            "location": "A5",
+            "status": "On Shelf at A5",
+            "category": "Mathematics"
+        },
+        "27": {
+            "name": "The Art of Computer Programming",
+            "location": "A5",
+            "status": "On Shelf at A5",
+            "category": "Computer Science"
+        },
+        "28": {
+            "name": "Peter Pan",
+            "location": "B1",
+            "status": "On Shelf at B1",
+            "category": "Fictions"
+        },
+        "29": {
+            "name": "Gentama",
+            "location": "B1",
+            "status": "On Shelf at B1",
+            "category": "Manga"
+        },
+        "30": {
+            "name": "Natsume ",
+            "location": "B1",
+            "status": "On Shelf at B1",
+            "category": "Manga"
+        },
+        "31": {
+            "name": "Bleach",
+            "location": "B1",
+            "status": "On Shelf at B1",
+            "category": "Manga"
+        },
+        "32": {
+            "name": "The Little Princess",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "33": {
+            "name": "The Wonderful Wizard of Oz",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "34": {
+            "name": "Winter's Tale",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "35": {
+            "name": "Best Bear Ever",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Manga"
+        },
+        "36": {
+            "name": "The Da Vinci Code",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "37": {
+            "name": "The Brick Bible",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Religious"
+        },
+        "38": {
+            "name": "Harry Potter",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "39": {
+            "name": "The Complete Sherlock Holmes",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "40": {
+            "name": "Angels & Demons",
+            "location": "B2",
+            "status": "On Shelf at B2",
+            "category": "Fictions"
+        },
+        "41": {
+            "name": "The Lord of the Rings",
+            "location": "B3",
+            "status": "On Shelf at B3",
+            "category": "Fictions"
+        },
+        "42": {
+            "name": "Jane Eyre",
+            "location": "B3",
+            "status": "On Shelf at B3",
+            "category": "Fictions"
+        },
+        "43": {
+            "name": "Classic American Short Stories",
+            "location": "B3",
+            "status": "On Shelf at B3",
+            "category": "Fictions"
+        }
+    }
+}
