@@ -1,5 +1,5 @@
 This is the individual project.
-Current Version: 0.1
+Current Version: 0.2
 
 Main file: LMS.py
 
