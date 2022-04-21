@@ -26,7 +26,7 @@ def listByCategory():
     else:
         print("INVALID INPUT\n")
         return
-    UI.clear()
+    UI.clear() # clear the screen
     print("For", cat, "category, we have:")
     with open('books.json', 'r') as infile:
         books = json.load(infile)
