@@ -8,60 +8,6 @@ import json
 
 import UI
 
-with open('books.json', 'r') as infile:
-    books = json.load(infile)
-
-
-class Book:
-    def __init__(self):
-        self.no = 0
-        self.name = ''
-        self.location = ''
-        self.category = ''
-        self.status = ''
-
-    def setNumber(self):
-        print("\nCurrently, there are", books['number'], "books in the library.")
-        books['number'] += 1
-        self.no = books['number']
-        print("Book", self.getName(), "is No.", self.getNumber(), "in the system.\n")
-        return
-
-    def setName(self, name):
-        self.name = name
-        return
-
-    def setLocation(self, location):
-        self.location = location
-
-    def setCategory(self, category):
-        self.category = category
-
-    def setStatus(self, status):
-        self.status = status
-
-    def printBookDetail(self):
-        print("Book No.", self.getNumber())
-        print("Name:", self.getName())
-        print("Location:", self.getLocation())
-        print("Category:", self.getCategory())
-        print("Status", self.getStatus())
-
-    def getNumber(self):
-        return self.no
-
-    def getName(self):
-        return self.name
-
-    def getLocation(self):
-        return self.location
-
-    def getCategory(self):
-        return self.category
-
-    def getStatus(self):
-        return self.status
-
 
 def listByCategory():
     category = input("PLEASE TYPE IN ONE OF THE ABOVE INDICES (1 - 6): ")
@@ -82,6 +28,8 @@ def listByCategory():
         return
     UI.clear()
     print("For", cat, "category, we have:")
+    with open('books.json', 'r') as infile:
+        books = json.load(infile)
     for book in books['member']:
         if books['member'][book]['category'] == cat:
             print('\t', book, '. ', books['member'][book]['name'], '\n\t----',
@@ -91,25 +39,30 @@ def listByCategory():
 
 
 def add():
-    book = Book()
+    with open('books.json', 'r') as infile:
+        books = json.load(infile)
     print("\nPlease type in the book's name:\n")
-    book.setName(input())
+    name = input()
     print("\nWhat's the location of this book?\n")
-    book.setLocation(input())
+    location = input()
     print("\nWhich category is this book?\n")
-    book.setCategory(input())
-    book.setStatus("On Shelf at " + book.getLocation())
-    book.setNumber()
-    index = book.getNumber()
-    books['member'][index] = {'name': book.getName(),
-                              'location': book.getLocation(),
-                              'status': book.getStatus(),
-                              'category': book.getCategory()}
+    cat = input()
+    status = "On Shelf at " + location
+    books['number'] += 1
+    index = books['number']
+    books['member'][index] = {'name': name,
+                              'location': location,
+                              'status': status,
+                              'category': cat}
     with open('books.json', 'w') as outfile:
         json.dump(books, outfile, indent=4)
+    print("\nSystem updated successfully!\nBook",
+          name, "is No.", index, "in the system.\n")
 
 
 def borrow():
+    with open('books.json', 'r') as infile:
+        books = json.load(infile)
     print("\nDo you know the index number of the book you want to borrow?")
     index = input("If yes, type in the number here; if no, type 0: ")
     if index == '0':
@@ -139,6 +92,8 @@ def borrow():
 
 
 def returnBack():
+    with open('books.json', 'r') as infile:
+        books = json.load(infile)
     print("\nDo you know the index number of the book you want to return?")
     index = input("If yes, type in the number here; if no, type 0: ")
     if index == '0':
@@ -168,6 +123,8 @@ def returnBack():
 
 
 def delete():
+    with open('books.json', 'r') as infile:
+        books = json.load(infile)
     print("\nDo you know the index number of the book you want to delete from the library?")
     index = input("If yes, type in the number here; if no, type 0: ")
     if index == '0':

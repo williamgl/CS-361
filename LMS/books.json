@@ -1,5 +1,5 @@
 {
-    "number": 43,
+    "number": 44,
     "member": {
         "1": {
             "name": "Java in a NutShell",
@@ -81,8 +81,8 @@
         },
         "14": {
             "name": "Putnam and Beyond",
-            "location": "A3",
-            "status": "On Shelf at A3",
+            "location": "A4",
+            "status": "On Shelf at A4",
             "category": "Mathematics"
         },
         "15": {
@@ -258,6 +258,12 @@
             "location": "B3",
             "status": "On Shelf at B3",
             "category": "Fictions"
+        },
+        "44": {
+            "name": "Clean Code",
+            "location": "A1",
+            "status": "On Shelf at A1",
+            "category": "Computer Science"
         }
     }
 }
