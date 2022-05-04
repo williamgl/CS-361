@@ -1,5 +1,5 @@
 This is the individual project.
-Current Version: 0.1
+Current Version: 0.2
 
 Main file: LMS.py
 
@@ -9,7 +9,7 @@ python3 LMS.py
 
 3 Quality Attributes:
 
-Integrity: There is no error that the software needs to restart
+Integrity: There is no error that the software needs to restart.
 
 Reliability: All the data is saved successfully in the json file.
 
