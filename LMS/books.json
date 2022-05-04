@@ -1,10 +1,10 @@
 {
-    "number": 44,
+    "number": 45,
     "member": {
         "1": {
             "name": "Java in a NutShell",
             "location": "Gan's desk",
-            "status": "Gan's desk",
+            "status": "On Shelf at Gan's desk",
             "category": "Computer Science"
         },
         "2": {
@@ -264,6 +264,12 @@
             "location": "A1",
             "status": "On Shelf at A1",
             "category": "Computer Science"
+        },
+        "45": {
+            "name": "Charlie's Chocolate Factory",
+            "location": "B4",
+            "status": "DELETED",
+            "category": "Fictions"
         }
     }
 }
