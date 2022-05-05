@@ -42,7 +42,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 users = json.load(infile)
             while username in users:
                 conn.sendall(b"\nTHE USERNAME ALREADY EXISTS\nPLEASE CREATE A NEW USERNAME: ")
-                conn.recv(1024)
+                data = conn.recv(1024)
                 username = data.decode('utf-8')
                 
             conn.sendall(b"\nPLEASE CREATE A PASSWORD: ")
