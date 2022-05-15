@@ -1,6 +1,6 @@
 # Author: Gan Li
 # Project: Personal Library Management System
-# Version: 0.1 Minimum Viable Product
+# Version: 0.1
 # Course: CS 361
 # File Description: This is the main file of this project
 """
@@ -9,11 +9,16 @@ Project Design:
     User Interface
     Users: list of users saved in xlsx
 """
+from tkinter import *
 import Book
 import UI
 
 
 if __name__ == '__main__':
+
+    root = Tk()
+    root.title("Gan's Library")
+
     UI.clear()  # clear screen
     UI.homePage()
     choice = input("PLEASE TYPE IN ONE OF THE ABOVE INDICES (1 - 6): ")

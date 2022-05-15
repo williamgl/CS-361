@@ -1,11 +1,11 @@
 This is the individual project.
-Current Version: 0.2
+Current Version: 1.0
 
-Main file: LMS.py
+Main file: LMS_0.2.py
 
 Please run it by the below command:
 
-python3 LMS.py
+python3 LMS_0.2.py
 
 3 Quality Attributes:
 

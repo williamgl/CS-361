@@ -1,5 +1,5 @@
 {
-    "number": 45,
+    "number": 44,
     "member": {
         "1": {
             "name": "Java in a NutShell",
@@ -255,21 +255,15 @@
         },
         "43": {
             "name": "Classic American Short Stories",
-            "location": "B3",
-            "status": "On Shelf at B3",
+            "location": "A1",
+            "status": "On Shelf at A1",
             "category": "Fictions"
         },
         "44": {
             "name": "Clean Code",
-            "location": "A1",
-            "status": "On Shelf at A1",
+            "location": "A2",
+            "status": "On Shelf at A2",
             "category": "Computer Science"
-        },
-        "45": {
-            "name": "Charlie's Chocolate Factory",
-            "location": "B4",
-            "status": "DELETED",
-            "category": "Fictions"
         }
     }
 }
