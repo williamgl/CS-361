@@ -4,6 +4,7 @@ from addBooks import addBook
 from deleteBooks import deleteBook
 from borrowBooks import borrowBook
 from returnBooks import returnBook
+from randomRecommendation import randomRec
 
 
 def checkExit():
@@ -67,9 +68,15 @@ if __name__ == '__main__':
     returnB.grid(row=3, column=1, pady=10,
                  ipadx=43, ipady=20)
 
+    RR = Button(root, text="New Feature:\nRandom Recommendation",
+                command=randomRec,
+                font=('times new roman', 24))
+    RR.grid(row=4, column=0, pady=10,
+            ipadx=4, ipady=20)
+
     terminate = Button(root, text="Exit", command=checkExit,
                        font=('times new roman', 36))
-    terminate.grid(row=4, column=0, columnspan=2,
-                   pady=10, ipadx=90, ipady=20)
+    terminate.grid(row=4, column=1, columnspan=1,
+                   pady=10, ipadx=118, ipady=20)
 
     root.mainloop()
