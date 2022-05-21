@@ -8,11 +8,16 @@ import time
 
 if __name__ == '__main__':
 
+    print("Random Number Generator running\n")
+
     while True:
-        time.sleep(1.0)
+        time.sleep(1)
         with open('prng-service.txt', 'r') as f:
             read_data = f.readline()
-        if read_data == "run":
-            num = {random.randint(1, 100)}
+            books = int(f.readline())
+
+        if read_data == "run\n":
+            index = random.randint(1, books)
             with open('prng-service.txt', 'w') as f:
-                f.write(f"{random.randint(1, 15)}")
+                f.write(f'index\n{index}')
+            print(f"Generated a new book index {index}\n")
