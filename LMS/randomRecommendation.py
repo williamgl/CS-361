@@ -1,4 +1,4 @@
-# the recommendation function related microservices for LMS version 0.3
+# the recommendation function related microservices for LMS version 1.0
 # the related random number generator microservice is developed by my CS 361 teammate Evan Butler
 
 # to make this function works, I modified Evan's code

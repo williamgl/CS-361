@@ -1,4 +1,4 @@
-# the addBooks function related microservices for LMS version 0.2
+# the addBooks function related microservices for LMS version 1.0
 
 import json
 from tkinter import *

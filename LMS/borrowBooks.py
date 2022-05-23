@@ -1,4 +1,4 @@
-# the borrowBooks function related microservices for LMS version 0.2
+# the borrowBooks function related microservices for LMS version 1.0
 
 import json
 from tkinter import *
@@ -10,7 +10,7 @@ def borrow(index):
 
     if index in books['member']:
         if books['member'][index]['status'] == 'Book Borrowed':
-            message = "\nI am sorry.\nThe book is currently borrowed \nby other people.\n"
+            message = "\nI am sorry.\nThe book is currently borrowed \nby another user.\n"
         elif books['member'][index]['status'] == 'DELETED':
             message = "\nI am sorry.\nThe book is no longer available.\n"
         else:
